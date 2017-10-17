@@ -1,0 +1,38 @@
+{
+  "name": "slap-caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linter": "semistandard",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoCagale/slap-caching.git"
+  },
+  "author": "fernando-cagale <fernando.b.cagale@gmail.com> (https://github.com/FernandoCagale)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoCagale/slap-caching/issues"
+  },
+  "homepage": "https://github.com/FernandoCagale/slap-caching#readme",
+  "dependencies": {
+    "good": "^7.3.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.6.2",
+    "hapi-boom-decorators": "^3.0.0",
+    "hapi-sequelize": "^3.0.4",
+    "hapi-slap": "^1.1.5",
+    "joi": "^13.0.0",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.13.10",
+    "sequelize-fixtures": "^0.6.0"
+  },
+  "devDependencies": {
+    "semistandard": "^11.0.0"
+  }
+}
