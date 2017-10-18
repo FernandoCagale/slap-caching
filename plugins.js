@@ -23,8 +23,8 @@ module.exports = function () {
       {
         name: 'slap',
         models: ['./models/*.js'],
-        sequelize: new Sequelize('slap', 'postgres', 'postgres', {
-          host: 'localhost',
+        sequelize: new Sequelize('slap', 'dbuser', 'dbuser', {
+          host: '127.0.0.1',
           port: 5434,
           dialect: 'postgres',
           operatorsAliases: Sequelize.Op,

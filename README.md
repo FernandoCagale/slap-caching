@@ -19,7 +19,7 @@ $ docker run --name redis -d -p 6379:6379 smebberson/alpine-redis
 `Starting PostgreSQL server`
 
 ```sh
-$ docker run --name postgres -d -p 5434:5432 --env 'DB_USER=postgres' --env 'DB_PASS=postgres' --env 'DB_NAME=slap' sameersbn/postgresql:9.6-2
+$ docker run --name postgres -d -p 5434:5432 --env 'DB_USER=dbuser' --env 'DB_PASS=dbuser' --env 'DB_NAME=slap' sameersbn/postgresql:9.6-2
 ```
 
 ```sh
